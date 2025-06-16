@@ -10,7 +10,7 @@ async function bootstrap() {
     prefix: '/uploads/',
   });
   app.enableCors({
-    origin: 'http://localhost:5173', // Adjust this to your frontend URL
+    origin: 'https://ass2-fe-9bbg.onrender.com', // Adjust this to your frontend URL
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
